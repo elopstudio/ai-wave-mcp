@@ -1,0 +1,33 @@
+{
+  "name": "@elopstudio/ai-wave-mcp",
+  "version": "1.0.1",
+  "description": "MCP server for AI Wave — a normalized feed of AI model releases, price changes and deprecations.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "ai-wave-mcp": "./index.mjs"
+  },
+  "files": [
+    "index.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "llm",
+    "pricing",
+    "deprecation",
+    "model-catalog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elopstudio/ai-wave-mcp.git"
+  },
+  "homepage": "https://aiwave.elopstudio.com/api-docs",
+  "bugs": {
+    "url": "https://github.com/elopstudio/ai-wave-mcp/issues"
+  }
+}
